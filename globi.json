@@ -1,0 +1,107 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "http://mbio-serv2.mbioekol.lu.se/tmp/Malavi1960735.xls",
+    "dcterms:bibliographicCitation" : "BENSCH, S., HELLGREN, O. and PÉREZ‐TRIS, J. (2009), MalAvi: a public database of malaria parasites and related haemosporidians in avian hosts based on mitochondrial cytochrome b lineages. Molecular Ecology Resources, 9: 1353-1358. https://doi.org/10.1111/j.1755-0998.2009.02692.x",
+    "delimiter" : "\t",
+    "doi": "10.1111/j.1755-0998.2009.02692.x",
+    "interactionTypeName": "parasiteOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002444",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "#no",
+        "titles" : "#no",
+        "datatype" : "string"
+      }, {
+        "name" : "Lineage_Name",
+        "titles" : "Lineage_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Alt_Lineage_Name",
+        "titles" : "Alt_Lineage_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "parasiteGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrder",
+        "titles" : "order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecies",
+        "titles" : "species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubspecificEpithet",
+        "titles" : "subspecies",
+        "datatype" : "string"
+      }, {
+        "name" : "Host_Status",
+        "titles" : "Host_Status",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifeStage",
+        "titles" : "Host_Age",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Host_Environment",
+        "datatype" : "string"
+      }, {
+        "name" : "continent",
+        "titles" : "continent",
+        "datatype" : "string"
+      }, {
+        "name" : "country",
+        "titles" : "country",
+        "datatype" : "string"
+      }, {
+        "name" : "region",
+        "titles" : "region",
+        "datatype" : "string"
+      }, {
+        "name" : "site",
+        "titles" : "site",
+        "datatype" : "string"
+      }, {
+        "name" : "coordinates",
+        "titles" : "coordinates",
+        "datatype" : "string"
+      }, {
+        "name" : "found",
+        "titles" : "found",
+        "datatype" : "string"
+      }, {
+        "name" : "tested",
+        "titles" : "tested",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference_Name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetCatalogNumber",
+        "titles" : "comment",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
